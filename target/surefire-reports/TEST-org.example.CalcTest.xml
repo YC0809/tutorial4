@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.029" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.028" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="D:\java\JDK\bin"/>
-    <property name="sun.java.command" value="C:\Users\TEMP\AppData\Local\Temp\surefire11797920499898559562\surefirebooter16344812001672106762.jar C:\Users\TEMP\AppData\Local\Temp\surefire11797920499898559562 2025-10-15T10-54-15_411-jvmRun1 surefire12030960285769260687tmp surefire_07135374727190859743tmp"/>
+    <property name="sun.java.command" value="C:\Users\TEMP\AppData\Local\Temp\surefire14551417892258348967\surefirebooter816143734417086795.jar C:\Users\TEMP\AppData\Local\Temp\surefire14551417892258348967 2025-10-15T11-03-39_179-jvmRun1 surefire9024757203244256400tmp surefire_014187235168897327751tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\TEMP\tutorial4\target\test-classes;C:\Users\TEMP\tutorial4\target\classes;C:\Users\TEMP\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\TEMP\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\TEMP\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\TEMP\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\TEMP\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\TEMP\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\TEMP\.m2\repository\org\junit\jupiter\junit-jupiter\6.0.0\junit-jupiter-6.0.0.jar;C:\Users\TEMP\.m2\repository\org\junit\jupiter\junit-jupiter-params\6.0.0\junit-jupiter-params-6.0.0.jar;C:\Users\TEMP\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\TEMP\AppData\Local\Temp\surefire11797920499898559562\surefirebooter16344812001672106762.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\TEMP\AppData\Local\Temp\surefire14551417892258348967\surefirebooter816143734417086795.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.16+12-LTS-247"/>
@@ -57,10 +57,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testAddition" classname="org.example.CalcTest" time="0.007"/>
-  <testcase name="testSubtraction" classname="org.example.CalcTest" time="0.016">
-    <failure message="expected: &lt;2&gt; but was: &lt;8&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <2> but was: <8>
-	at org.example.CalcTest.testSubtraction(CalcTest.java:16)
-]]></failure>
-  </testcase>
+  <testcase name="testAddition" classname="org.example.CalcTest" time="0.025"/>
+  <testcase name="testSubtraction" classname="org.example.CalcTest" time="0"/>
 </testsuite>
